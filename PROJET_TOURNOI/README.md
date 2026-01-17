@@ -68,4 +68,4 @@ Le fichier de sauvegarde est ignoré par Git grâce au .gitignore.
 
 - **Lundi** : Gestion JSON, ELO et correction d'erreurs.
 
-- **Mardi** : Finalisation, documentation et présentation.
+- **Mardi** : Finalisation, documentation et présentation
