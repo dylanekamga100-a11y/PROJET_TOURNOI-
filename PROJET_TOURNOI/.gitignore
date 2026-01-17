@@ -1,0 +1,6 @@
+import json.py 
+__pycache__/
+*.pyc
+.env
+.vscode/
+sauvegarde.json
