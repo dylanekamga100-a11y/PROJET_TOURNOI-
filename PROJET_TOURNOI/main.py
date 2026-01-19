@@ -1,4 +1,4 @@
 from tournoi import lancer_tournoi
 
-if _name_ == "_main_":
+if __name__ == "__main__":
     lancer_tournoi()
