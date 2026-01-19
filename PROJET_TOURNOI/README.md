@@ -4,15 +4,15 @@ C'est un projet réalisé dans le cadre d'un travail en groupe de 3 personnes pe
 
 ## 🛠️ Fonctionnalités
 
-- **Jeux** : Tic-Tac-Toe (grille ASCII) et PPC (variante 5 choix).
+- **Jeux** : Tic-Tac-Toe (grille ASCII) et PPC (variante Lezard-Spock 5 choix).
 
-- **IA** : Niveaux Facile (aléatoire) et Difficile (stratégie).
+- **IA** : Niveaux Facile (Aleatoire) et Difficile(Strategique).
 
 - **Formats** : Élimination directe (Bracket) ou Round-Robin (Championnat).
 
 - **Données** : Sauvegarde automatique et chargement via JSON.
 
-- **Statistiques** : Historique détaillé, ratio W/L et évolution ELO.
+- **Statistiques** : Historique détaillé, ratio et évolution ELO.
 
 ## 📁 Structure du projet
 
@@ -28,10 +28,10 @@ C'est un projet réalisé dans le cadre d'un travail en groupe de 3 personnes pe
 
 ## ▶️ Lancer le programme
 
-Prérequis
+Ce qu'il faut :
 	•	Python 3 installé
 
-Exécution
+Exécution :
 
 Dans le dossier du projet, lancer la commande :
 `python main.py`
@@ -48,15 +48,15 @@ Le fichier de sauvegarde est ignoré par Git grâce au .gitignore.
 
 ## 👥 Répartition du travail
 
-	•	Membre 1 : Gestion du tournoi et sauvegarde
-	•	Membre 2 : Jeu Pierre Papier Ciseaux
-	•	Membre 3 : Jeu du Morpion
+	•	Fouad : Gestion du tournoi et sauvegarde
+	•	Dylane : Jeu Pierre Papier Ciseaux
+	•	Cheickh : Jeu du Morpion
 
 
 
 ## 🛠️ Technologies utilisées
 
-     •   Python 3
+     •   Python 3 
      •   JSON (pour la sauvegarde)
      •   Git / GitHub (travail collaboratif)
 
