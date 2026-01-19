@@ -4,9 +4,9 @@ C'est un projet réalisé dans le cadre d'un travail en groupe de 3 personnes pe
 
 ## 🛠️ Fonctionnalités
 
-- **Jeux** : Tic-Tac-Toe (grille ASCII) et PPC (variante Lezard-Spock 5 choix).
+- **Jeux** : Tic-Tac-Toe (grille ASCII) et PPC (variante 3 choix).
 
-- **IA** : Niveaux Facile (Aleatoire) et Difficile(Strategique).
+- **IA** : Aleatoire.
 
 - **Formats** : Élimination directe (Bracket) ou Round-Robin (Championnat).
 
