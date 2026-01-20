@@ -1,7 +1,13 @@
 import random
 def jouer_pierre_papier_ciseau():
 
-    manches = int(input("Combien de manches voulez-vous jouer ? "))
+    while True:
+        saisie = input("Combien de manches voulez-vous jouer ? ")
+        if saisie.isdigit():
+            manches = int(saisie)
+            break
+        else:
+            print("Saisie invalide : veuillez entrer un nombre entier.")
 
     score_joueur = 0
     score_ordi = 0
