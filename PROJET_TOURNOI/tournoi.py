@@ -50,3 +50,13 @@ def lancer_tournoi():
 
         else:
             print("Choix invalide ❌")
+
+def calculer_elo(elo_jouer, elo_adversaire, resultat):
+    K = 32 # facteur de sensibilitÃ©
+
+    # calcule de la probabilitÃ© de victoire 
+    esperence = 1 / (1 + 10 **((elo_adversaire - elo_jouer) / 400))
+
+    # nouveau score 
+    nouveau_elo = elo_jouer + K *(resultat - esperence)
+    return round(nouveau_elo)
