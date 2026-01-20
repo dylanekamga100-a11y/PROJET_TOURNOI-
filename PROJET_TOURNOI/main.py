@@ -1,3 +1,4 @@
+1
 from tournoi import lancer_tournoi
 
 if __name__ == "__main__":
