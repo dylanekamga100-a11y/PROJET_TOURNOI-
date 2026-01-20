@@ -30,12 +30,19 @@ def jouer_morpion():
         afficher_plateau()
 
         choix_joueur = 0
-
-        while choix_joueur < 1 or choix_joueur > 9 or plateau[choix_joueur - 1] != case_vide: 
-            choix_joueur = int(input("Entrez une case entre 1 et 9 : "))
-        
-        
-        plateau[choix_joueur - 1] = joueur
+        while True:
+            try:
+                choix_joueur = int(input("Joueur " + joueur + ", choisissez une case (1-9) : ")) - 1
+                if choix_joueur < 0 or choix_joueur > 8:
+                    print("Choix invalide. Veuillez choisir un nombre entre 1 et 9.")
+                elif plateau[choix_joueur] != case_vide:
+                    print("Case déjà prise. Veuillez en choisir une autre.")
+                else:
+                    break
+            except ValueError:
+                print("Entrée invalide. Veuillez entrer un nombre entre 1 et 9.")
+            
+        plateau[choix_joueur] = joueur
 
 
         
@@ -47,10 +54,11 @@ def jouer_morpion():
         or case_vide != plateau[2] == plateau[5] == plateau[8] \
         or case_vide != plateau[0] == plateau[4] == plateau[8] \
         or case_vide != plateau[2] == plateau[4] == plateau[6]:
-            print("Le joueur", joueur, "a gagné la partie!")
-
+            
             afficher_plateau()
 
+            print("Le joueur", joueur, "a gagné la partie!")    
+            
             break    
 
         if joueur == symboles[0]:

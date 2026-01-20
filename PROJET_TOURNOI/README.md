@@ -48,7 +48,7 @@ Le fichier de sauvegarde est ignoré par Git grâce au .gitignore.
 
 ## 👥 Répartition du travail
 
-	•	Fouad : Gestion du tournoi et sauvegarde
+	•	Fouad : Gestion du tournoi et sauvegarde 
 	•	Dylane : Jeu Pierre Papier Ciseaux
 	•	Cheickh : Jeu du Morpion
 
